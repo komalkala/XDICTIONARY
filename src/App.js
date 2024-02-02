@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const XDictionary = () => {
+const App = () => {
   const initialDictionary = [
     { word: "React", meaning: "A JavaScript library for building user interfaces." },
     { word: "Component", meaning: "A reusable building block in React." },
@@ -38,5 +38,4 @@ const XDictionary = () => {
   );
 };
 
-export default XDictionary;
-
+export default App;
